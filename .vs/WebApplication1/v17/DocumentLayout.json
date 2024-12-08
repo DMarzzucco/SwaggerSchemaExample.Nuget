@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|c:\\users\\darmarzrold\\source\\repos\\webapplication1\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|c:\\users\\darmarzrold\\source\\repos\\webapplication1\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|c:\\users\\darmarzrold\\source\\repos\\webapplication1\\webapplication1\\filter\\attributes\\swaggerschemaexampleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\filter\\attributes\\swaggerschemaexampleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|c:\\users\\darmarzrold\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|c:\\users\\darmarzrold\\source\\repos\\webapplication1\\webapplication1\\filter\\swaggerschemaexamplefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2E81E7-A8C2-4DFA-8DB4-1CD276A41A2F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\filter\\swaggerschemaexamplefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 734,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:27:34.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:26:10.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwaggerSchemaExampleAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\Filter\\Attributes\\SwaggerSchemaExampleAttribute.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Filter\\Attributes\\SwaggerSchemaExampleAttribute.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\Filter\\Attributes\\SwaggerSchemaExampleAttribute.cs",
+              "RelativeToolTip": "WebApplication1\\Filter\\Attributes\\SwaggerSchemaExampleAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:20:02.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SwaggerSchemaExampleFilter.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\Filter\\SwaggerSchemaExampleFilter.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Filter\\SwaggerSchemaExampleFilter.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\Filter\\SwaggerSchemaExampleFilter.cs",
+              "RelativeToolTip": "WebApplication1\\Filter\\SwaggerSchemaExampleFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:19:35.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\darmarzrold\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:16:02.463Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
