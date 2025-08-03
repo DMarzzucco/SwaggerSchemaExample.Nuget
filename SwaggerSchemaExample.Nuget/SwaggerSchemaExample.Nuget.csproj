@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>SwaggerSchemaExample.Nuget</PackageId>
+    <Title>SwaggerSchemaExample</Title>
+    <Version>1.0.0</Version>
+    <Authors>Dario Marzzucco</Authors>
+    <Company>SysteMarzz</Company>
+    <Product>SwaggerShemaExample.Nuget</Product>
+    <Description>This library allows you to document models and DTOs with Swagger.</Description>
+    <PackageProjectUrl>https://github.com/DMarzzucco/SwaggerSchemaExample.Nuget.git</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/DMarzzucco/SwaggerSchemaExample.Nuget.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Swagger;Annotation;Schema;Example</PackageTags>
+    <PackageReleaseNotes>First Version</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.1.0" />
+  </ItemGroup>
+	
+</Project>

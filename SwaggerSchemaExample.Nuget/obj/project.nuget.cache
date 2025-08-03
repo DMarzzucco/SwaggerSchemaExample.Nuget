@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pEnIY26pxik=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\darma\\Documents\\SwaggerDocumentationAnnotation.NET\\SwaggerSchemaExample.Nuget\\SwaggerSchemaExample.Nuget.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\darma\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
+    "C:\\Users\\darma\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\7.1.0\\swashbuckle.aspnetcore.annotations.7.1.0.nupkg.sha512",
+    "C:\\Users\\darma\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.1.0\\swashbuckle.aspnetcore.swagger.7.1.0.nupkg.sha512",
+    "C:\\Users\\darma\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.1.0\\swashbuckle.aspnetcore.swaggergen.7.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

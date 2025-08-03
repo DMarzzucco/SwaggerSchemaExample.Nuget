@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SwaggerSchemaExample.Nuget</id>
+    <version>1.0.0</version>
+    <title>SwaggerSchemaExample</title>
+    <authors>Dario Marzzucco</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/DMarzzucco/SwaggerSchemaExample.Nuget.git</projectUrl>
+    <description>This library allows you to document models and DTOs with Swagger.</description>
+    <releaseNotes>First Version</releaseNotes>
+    <tags>Swagger Annotation Schema Example</tags>
+    <repository type="git" url="https://github.com/DMarzzucco/SwaggerSchemaExample.Nuget.git" commit="c367f9ecf1e9446b030ab7a3d68a6c39a9ce3f3c" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Swashbuckle.AspNetCore.Annotations" version="7.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\bin\Release\net8.0\SwaggerSchemaExample.Nuget.dll" target="lib\net8.0\SwaggerSchemaExample.Nuget.dll" />
+    <file src="C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\LICENSE" target="\LICENSE" />
+    <file src="C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\README.md" target="\README.md" />
+  </files>
+</package>

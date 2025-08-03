@@ -1,0 +1,13 @@
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\bin\Release\net8.0\SwaggerSchemaExample.Nuget.deps.json
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\bin\Release\net8.0\SwaggerSchemaExample.Nuget.dll
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\bin\Release\net8.0\SwaggerSchemaExample.Nuget.pdb
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\SwaggerSchemaExample.Nuget.csproj.AssemblyReference.cache
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\SwaggerSchemaExample.Nuget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\SwaggerSchemaExample.Nuget.AssemblyInfoInputs.cache
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\SwaggerSchemaExample.Nuget.AssemblyInfo.cs
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\SwaggerSchemaExample.Nuget.csproj.CoreCompileInputs.cache
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\SwaggerSchemaExample.Nuget.sourcelink.json
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\SwaggerSchemaExample.Nuget.dll
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\refint\SwaggerSchemaExample.Nuget.dll
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\SwaggerSchemaExample.Nuget.pdb
+C:\Users\darma\Documents\SwaggerDocumentationAnnotation.NET\SwaggerSchemaExample.Nuget\obj\Release\net8.0\ref\SwaggerSchemaExample.Nuget.dll

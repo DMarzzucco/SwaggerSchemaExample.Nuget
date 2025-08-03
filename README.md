@@ -1,82 +1,25 @@
-# Swagger Documentation Annotation ASP.NET
+# SwaggerSchemaExample
 
-This alternative allows you to add examples to your models and DTOs through annotations, in a simple way and without the need to generate XML files.
+This library allows you to document models and DTOs with Swagger.
 
 ## These are the steps to follow.
 
-- Install swagger annotations
 
-```shell
-dotnet add package Swashbuckle.AspNetCore.Annotations
-```
-
-- Enable Annotations in Swagger Settings
+### Swagger Settings
+- Add `EnableAnnotations` and implement `SwaggerSchemaExampleFilter`in SchemaFilter.
 
 ```cs
 builder.Services.AddSwaggerGen(
-    c =>
+    options =>
     {
-        c.EnableAnnotations();
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "DemoSwaggerAnnotation", Version = "v1" });
+        options.EnableAnnotations();
+        // options.SwaggerDoc("v1", new OpenApiInfo { Title = "DemoSwaggerAnnotation", Version = "v1" });
+         options.SchemaFilter<SwaggerSchemaExampleFilter>();
     });
 ```
-- In a dedicated module, configure the attributes, which will allow you to add examples, models and DTOs.
+### Finished
 
-```cs
-  [AttributeUsage(
-        AttributeTargets.Class |
-        AttributeTargets.Struct |
-        AttributeTargets.Parameter |
-        AttributeTargets.Property |
-        AttributeTargets.Enum,
-        AllowMultiple = false)]
-    public class SwaggerSchemaExampleAttribute : Attribute
-    {
-        public SwaggerSchemaExampleAttribute(string example)
-        {
-            Example = example;
-        }
-
-        public string Example { get; set; }
-    }
-```
-
-- Made a filter that allows us to integrate these examples into the Swagger UI
-```cs
-public class SwaggerSchemaExampleFilter : ISchemaFilter
-    {
-        public void Apply(OpenApiSchema schema, SchemaFilterContext context)
-        {
-            if(context.MemberInfo != null)
-            {
-                var schemaAttribute = context.MemberInfo.GetCustomAttributes<SwaggerSchemaExampleAttribute>()
-               .FirstOrDefault();
-                if (schemaAttribute != null) ApplySchemaAttribute(schema, schemaAttribute);
-            }
-        }
-
-        private void ApplySchemaAttribute(OpenApiSchema schema, SwaggerSchemaExampleAttribute schemaAttribute)
-        {
-            if (schemaAttribute.Example != null)
-            {
-                schema.Example = new Microsoft.OpenApi.Any.OpenApiString(schemaAttribute.Example);
-            }
-        }
-    }
-```
-
-- Finally we must add the filter to the Swagger configurations
-```cs
-
-builder.Services.AddSwaggerGen(
-    c =>
-    {
-        c.EnableAnnotations();
-        c.SchemaFilter<SwaggerSchemaExampleFilter>();
-    });
-```
-
-- Now we can add the annotations to our models and DTOs
+Now we can add the annotations to our models and DTOs
 
 ```cs
  public class WeatherForecast
@@ -99,9 +42,10 @@ builder.Services.AddSwaggerGen(
         public string? Summary { get; set; }
     }
 ```
-
 ## Original Source
 [link](https://medium.com/@niteshsinghal85/enhance-swagger-documentation-with-annotations-in-asp-net-core-d2981803e299)
 
 ## Author 
 @niteshsinghal85 Nitesh Singhal
+
+Dario Marzzucco
